@@ -9,5 +9,17 @@
 	<script type="text/javascript">
 	//Declara e nomea funções chamada pulalinha
 	function pulalinha(){
-	
+		//corpo da função, bloco de código que realiza uma tarefa.
+		document.write("br");
 	}
+	//cria uma função que recebe um parâmetro e exibe uma mensagem.
+	function mostra(nome) {
+		document.write("Olá" + nome);
+		pulalinha();//Chamando uma função de dentro de outra.
+		document.write("Seja bem vindo!");
+	}
+	//Chama a função mostra passando Celene como parametro.
+	mostra("Celene");
+	</script>
+</body>
+</html>
