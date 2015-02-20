@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<title>Trabalhando com funções</title>
+	<meta charset="utf-8">
+	</head>
+	<body>
+	<h1>Funções com parâmetro no JavaScript</h1>
+	<script type="text/javascript">
+	//Declara e nomea funções chamada pulalinha
+	function pulalinha(){
+		//corpo da função, bloco de código que realiza uma tarefa.
+		document.write("<br>");
+	}
+	//cria uma função que recebe um parâmetro e exibe uma mensagem.
+	function mostra(dado) {
+		document.write(dado);
+	}
+	function calculaIMC(peso, altura) {
+		var IMC = peso / (altura * altura);
+		//Passando para função mostra exibir o resultado.
+		//Usando o método round da classe Meth para arredondar.
+		mostra("Seu IMC é: " + Math.round(IMC));
+	}
+	//Chama a função para a realização do cálculo.
+	calculaIMC(73,);
+	</script>
+</body>
+</html>
